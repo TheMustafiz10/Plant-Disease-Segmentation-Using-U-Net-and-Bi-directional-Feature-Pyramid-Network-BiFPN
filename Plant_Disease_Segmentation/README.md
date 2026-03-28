@@ -1,4 +1,6 @@
-This project implements plant leaf disease segmentation using deep learning, specifically a U-Net architecture enhanced with Bi-directional Feature Pyramid Network (BiFPN). The models are trained and evaluated on a dataset of plant leaf images and corresponding segmentation masks.
+Plant Disease Segmentation is a deep learning project focused on accurately identifying and segmenting diseased regions in plant leaves using advanced image segmentation techniques. Built with Python, the project implements a baseline [U-Net](https://arxiv.org/abs/1505.04597) model alongside an enhanced version incorporating [BiFPN](https://arxiv.org/abs/1911.09070) for improved multi-scale feature fusion. The workflow covers data preprocessing, model training with optimization strategies like early stopping and learning rate scheduling, and evaluation using metrics such as Mean IoU, Dice coefficient, and pixel accuracy. It also includes visual comparisons of predictions to highlight performance differences, demonstrating how architectural improvements can significantly boost segmentation accuracy in real-world agricultural applications.
+
+This project implements plant leaf disease segmentation using deep learning, also the models are trained and evaluated on a dataset of plant leaf images and corresponding segmentation masks.
 
 ## Project Structure
 
